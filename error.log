@@ -1,0 +1,11 @@
+2024-02-21T01:39:00.608Z - SyntaxError: Expected property name or '}' in JSON at position 3 (line 2 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (/Users/maxter/Projects/estudos/cccat6_refactoring/cccat15_1/node_modules/body-parser/lib/types/json.js:89:19)
+    at /Users/maxter/Projects/estudos/cccat6_refactoring/cccat15_1/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/Users/maxter/Projects/estudos/cccat6_refactoring/cccat15_1/node_modules/raw-body/index.js:231:16)
+    at done (/Users/maxter/Projects/estudos/cccat6_refactoring/cccat15_1/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/maxter/Projects/estudos/cccat6_refactoring/cccat15_1/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
