@@ -3,3 +3,4 @@ node_modules
 resources
 code_smells.txt
 create.sql
+error.log
